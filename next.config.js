@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  webpack5: false,
   reactStrictMode: true,
+  target: 'experimental-serverless-trace',
 }
 
 module.exports = nextConfig
